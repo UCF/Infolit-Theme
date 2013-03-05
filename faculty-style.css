@@ -1,0 +1,517 @@
+/*
+Theme Name: WordPress Default
+Theme URI: http://infolit.ucf.edu/
+Description: Infolit faculty skin
+Version: 1.0
+Author: Techrangers
+Author URI: http://infolit.ucf.edu/
+*/
+
+
+html,body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 90%;
+	height: 100%;
+	background: #fef9e5;
+}
+.hide {
+position:absolute;
+top:-9999px;
+left:-9999px;
+}
+
+.hidden {
+	display:none;
+}
+
+.show {
+position:inherit;
+display:block;
+}
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+.alignright
+{
+	text-align:right;
+}
+.alignleft
+{
+	text-align:left;
+}
+
+
+.nobullet
+{
+	list-style: none;
+}
+
+.important
+{
+	color: red;
+}
+
+.clear
+{
+        clear: both;
+}
+
+.hidden
+{
+	display: none;
+}
+.alpha
+{
+        list-style-type: lower-alpha;
+}
+
+.m2x
+{
+        margin-left:2em;
+}
+.center
+{
+	text-align: center;
+	margin:0 50% 0 50%;
+}
+
+.inline li
+{
+        display:inline;
+}
+
+
+.infolit_captivate {
+	background: url('/wp-content/themes/infolit/images/infolit_play_captivate.png') no-repeat 100% 0%;
+	display: block;
+	width: 352px;
+	height: 0px;
+	padding-top: 258px;
+	overflow:hidden;
+}
+
+.infolit_captivate:hover  {
+	background-position: 100% -259px;
+}
+
+#site
+{
+	width: 1024px;
+	padding: 0 0;
+	margin: 0 auto;
+}
+
+html>body #site
+{
+	width: 85%;
+	min-width: 925px;
+}
+
+#site #content-head
+{
+	padding: 0;
+	margin: 0 auto;
+	background: white;
+	background-image: url('images/menu_bg.gif');
+	background-repeat: repeat-x;
+}
+
+#site #content-head #menu
+{
+	margin: 0;
+	padding: 61px 0 12px 0;
+	background: transparent;
+	background-image: url('images/nav_bg.gif');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+#site #content-head #menu #nav
+{
+	margin: 0 28px 0 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+	background-color: #669933;
+}
+
+#site #content-head #menu #nav a
+{
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: .8em;
+	text-decoration: none;
+	color: white;
+	line-height: 24px;
+	font-family: "Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+}
+
+#site #content-head #menu #nav li
+{
+	display: inline;
+	padding: 0 4px 0 7px;
+	margin: 0;
+	border-left: 2px solid white;
+}
+
+#site #content-head #menu #nav li ul li
+{
+	display: none;
+}
+
+#site #content-head #menu #nav li.first
+{
+	border: none;
+	padding: inherit;
+	padding-right: 4px;
+}
+
+#site #content-head #logo
+{
+	float: left;
+	padding-left: 19px;
+	background: #fef9e5;
+}
+
+#site #content-head #logo h1 a span
+{
+	display: none;
+	width: 100%;
+}
+
+#site #content-head #logo h1 a
+{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+#site #content-head #logo h1
+{
+	margin: 0;
+	padding: 0;
+	height: 97px;
+	width: 286px;
+	background: url('images/site_logo.gif') no-repeat top left;
+}
+
+#site #main-content-wrapper
+{
+	margin: 0 auto;
+	padding: 0 0 0 60px;
+	background: #fef9e5 url('images/main_left_bg.gif') repeat-y 20px 0;
+}
+
+#site #main-content-wrapper #main-content
+{
+	margin: 0 auto;
+	min-height: 270px;
+	height: 270px;
+	padding: 10px 60px 0 20px;
+	background-color: white;
+	background-image: url('images/main_right_bg.gif');
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+#site #main-content-wrapper>#main-content
+{
+	height: 100%;
+}
+
+#site #main-content-wrapper #main-content img#main
+{
+	padding-left: 20px;
+	float: right;
+	width: 352px;
+	height: 255px;
+	background-color: white;
+}
+
+#site #main-content-wrapper #main-content #main
+{
+	padding-left: 20px;
+	float: right;
+	background-color: white;
+}
+
+#site ul
+{
+	margin-bottom: 0;
+}
+
+#site ul li
+{
+	margin: 0;
+	padding: 0 5px 3px 5px;
+	line-height: 1.5em;
+}
+
+#site ul li ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#site ul li ul li
+{
+	margin: 0 0 0 20px;
+}
+
+#site ol li
+{
+	padding: 3px 5px;
+	line-height: 1.5em;
+}
+
+#site h2
+{
+	color: #669933;
+	padding: 0;
+	border-bottom: 2px dotted #ffcc00;
+	margin: 10px 0 0 0;
+	text-align: left;
+}
+
+#site h3
+{
+	padding: 0;
+	margin-bottom: 0;
+	color: #336699;
+}
+
+#site p
+{
+	line-height: 1.5em;
+	padding: .5em 0;
+	text-align: justify;
+	margin: 0;
+}
+
+#mod-guide-nav
+{
+         margin-bottom: 10px;
+	text-align: center;
+	 list-style: none;
+
+
+}
+
+#mod-guide-nav li
+{
+
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+#mod-guide-nav #prev
+{
+	text-align: left;
+}
+#mod-guide-nav #next
+{ 
+        text-align: right;
+}
+#site .center
+{
+	text-align: center;
+}
+
+
+#site #content-foot
+{
+	background: #fef9e5 url('images/content-foot.gif') no-repeat top right;
+}
+
+#site #content-foot #footer
+{
+	margin-right: 337px;
+	padding: 21px 0 0 70px;
+	background: white url('images/footer_bkg.gif') no-repeat top left;
+}
+
+#content-foot #footer p
+{
+	line-height: 19px;
+	padding: 4px 0 28px 0;
+	margin: 0;
+	color: white;
+	background: #669933 url('images/footer-p_bkg.gif') repeat-x bottom left;
+}
+
+#site blockquote
+{
+	border: 1px solid #999;
+	background-color: #F0F0F0;
+	padding: 1em .5em;
+}
+
+#site table
+{
+	margin: .4em 0 2em 2em;
+	border: solid 1px #999;
+}
+
+#site table th
+{
+	background: #669933;
+	color: white;
+	height: 1.8em;
+}
+
+#site table td
+{
+	border: solid 1px #999;
+	height: 1.5em;
+	padding: .3em 1em;
+}
+#site table tr
+{
+    background-color: #fff;
+}
+#site table tr.odd
+{
+    background-color: #f9f9f9;
+}
+
+#site table tr:hover
+{
+    background-color: #edf5e6;
+}
+
+#site blockquote p
+{
+	margin: 0 1em;
+}
+
+#site #li_lname
+{
+	float: left;
+}
+
+#site #li_fname
+{
+	float: left;
+	margin-right: 25px;
+}
+
+#site #li_phone
+{
+	clear: both;
+	padding-top: 0;
+}
+
+form
+{
+	margin: 20px 0 0 0;
+}
+
+form#faculty-feedback-form input, select,
+{
+	border: 1px solid #CCF;
+	display:block;
+}
+input.other
+{
+
+width: 20em;
+
+}
+
+form input.radio
+{
+	border: none;
+}
+
+form button
+{
+	border: 1px solid #CCF;
+	background-color: transparent;
+}
+
+form legend
+{
+	color: #66A;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+form fieldset
+{
+	border: 1px solid #66A;
+	padding: 2em;
+}
+
+form label
+{
+	font-weight: normal;
+}
+
+form ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+form ul li
+{
+	list-style-type: none;
+	margin: 1em 0 0 0;
+}
+
+form textarea
+{
+	width: 50em;
+	height: 10em;
+}
+
+#main-content h2.error-h2
+{
+	color: #336699;
+	text-align: center;
+}
+
+#main-content p.error-p
+{
+	text-align: center;
+}
+
+img#main
+{
+	height: 260px;
+	width: 362px;
+}
+
+.comments
+{
+
+	float: right;
+
+}
+
+.IFC
+{
+
+	padding:2em;
+	float: right;
+
+}
+
+.padded-movie object { margin-top:30px; }
+
+/* FAQ Page Styles */
+
+p.backtotop
+{
+	text-align: left;
+}

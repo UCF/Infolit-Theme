@@ -1,0 +1,102 @@
+/* print css for infolit.ucf.edu */
+
+#UCFHBHeader, #menu, #nav,  .comments, .backtotop { display: none; }
+
+html,body
+{
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 90%;
+	height: 100%;	
+	padding: 10px;
+}
+.hide {
+position:absolute;
+top:-9999px;
+left:-9999px;
+}
+
+.show {position:inherit; display:block;}
+.left{ float: left; }
+.right{	float: right; }
+.center{ text-align: center; margin: auto; }
+.alignright{ text-align:right; }
+.alignleft{ text-align:left; }
+.nobullet{ list-style: none; }
+.important{ color: red; }
+.clear{ clear: both; }
+.hidden{ display: none; }
+.alpha{ list-style-type: lower-alpha; }
+.m2x{ margin-left:2em; }
+.inline li{ display:inline; }
+h1 a, h2 a, h3 a, .directory a{text-decoration: none;	color: #000;}
+#site p{line-height: 1.5em; padding: .5em 0; text-align: justify;}
+#site blockquote{border: 1px solid #000; padding: 1em .5em;}
+#site blockquote p{margin: 0 1em;}
+
+/*lists*/
+#site ul{margin-bottom: 0;}
+
+#site ul li
+{	
+	margin: 0;
+	padding: 0 5px 3px 5px;
+	line-height: 1.5em;
+}
+
+#site ul li ul{margin: 0; padding: 0;}
+#site ul li ul li{margin: 0 0 0 20px;}
+#site ol li{padding: 3px 5px; line-height: 1.5em;}
+
+
+#mod-guide-nav li
+{
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+#site #li_lname{	float: left;}
+
+#site #li_fname
+{
+	float: left;
+	margin-right: 25px;
+}
+
+#site #li_phone
+{
+	clear: both;
+	padding-top: 0;
+}
+
+
+
+/*tables*/
+
+#site table
+{
+	margin: .4em 0 2em 2em;
+	border: solid 1px #000;
+}
+
+#site table td
+{
+	border: solid 1px #000;
+	height: 1.5em;
+	padding: .3em 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
