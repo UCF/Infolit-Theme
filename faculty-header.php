@@ -23,6 +23,9 @@
 	
 <script type="text/javascript" src="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>js/fancybox/jquery.fancybox-1.3.4.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+
+
 <script type="text/javascript">
 	$(document).ready(function() {
 
@@ -37,6 +40,21 @@
 		
 	});
 </script>
+
+<!--[if lt IE 9]>
+<script src="dist/html5shiv.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$(".lightbox_link").fancybox({
+			'titlePosition'		: 'inside',
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none'
+		});
+		
+	});
+</script>
+<![endif]-->
 
 <?php endif; ?>
 
@@ -81,7 +99,7 @@ wp_head();
             <li class="first"><a href="/faculty/">About</a></li>
 			<?php 
 			//Lists all pages in the navigation bar; excludes parent and student pages.
-			wp_list_pages('sort_column=menu_order&title_li=&include=25,27,29,31,34,38&depth=0'); 
+			wp_list_pages('sort_column=menu_order&title_li=&include=25,27,29,31,34,38,1446&depth=0'); 
 			?> 
             </ul>
         </div>           
