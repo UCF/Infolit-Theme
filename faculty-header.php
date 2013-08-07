@@ -10,7 +10,7 @@
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
- <title>Information Literacy</title>
+ <title><?php wp_title( ' - ', true, 'right'); ?>Information Literacy</title>
 
 <link rel="stylesheet" href="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>faculty-style.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>/print.css" type="text/css" media="print" />
