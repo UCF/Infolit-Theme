@@ -52,15 +52,15 @@
 
 						<?php } elseif ( !comments_open() && pings_open() ) {
 							// Only Pings are Open ?>
-							Responses are currently closed, but you can <a href="<?php trackback_url(); ?> " rel="trackback">trackback</a> from your own site.
+							Responses are currently closed, but you can <a href="<?php trackback_url(); ?> " rel="trackback">trackback</a> from your own site. -->
 
 						<?php } elseif ( comments_open() && !pings_open() ) {
 							// Comments are open, Pings are not ?>
-							You can skip to the end and leave a response. Pinging is currently not allowed.
+							You can skip to the end and leave a response. Pinging is currently not allowed. -->
 
 						<?php } elseif ( !comments_open() && !pings_open() ) {
 							// Neither Comments, nor Pings are open ?>
-							Both comments and pings are currently closed.
+							Both comments and pings are currently closed. -->
 
 						<?php }  ?>
 
@@ -83,8 +83,7 @@
 
 <?php endif; 
 
-include($parent."-footer.php");?>
-
+include($parent."-footer.php");
 
 
 ?>
