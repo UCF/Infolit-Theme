@@ -55,8 +55,7 @@ function curPageURL() {
             <li class="first"><a href="/student/">Home</a></li>
 			<?php 
                     //Lists all pages in the navigation bar
-                    
-wp_list_pages('sort_column=menu_order&title_li=&include=69,76,1480,518&depth=0'); 
+                    wp_list_pages('sort_column=menu_order&title_li=&exclude=4,25,27,29,31,34,38,54,60,85,202,230,218,342,431,458,489,494,603,612,617,620,622,624,626,628,630,632,635,641,645,651,653,656,658,660,663,665,667,786,790,794,797,800,806,809,820,823,826,829,832,835,844,847,856,856,859,861,863,865,867,869,886,889,891,893,895,897,899,901,911,914,916,918,920,922,924,938,941,943,945,947,949,951,953&depth=0'); 
              ?> 
             </ul>
         </div>           
