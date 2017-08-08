@@ -15,10 +15,11 @@ include('faculty-header.php');
 		// Determines which image should be displayed based on the title of the current page.
 		$current_page_title = wp_title('', false);
 		$current_page_title = trim($current_page_title,  "\t\n ");
+		$directory = get_template_directory_uri().'/images/faculty/';
 		
 		if(!($current_page_title == 'Feedback' || $current_page_title == 'FAQ' || $current_page_title == 'What Is Information Fluency?'))
 		{
-		echo '<img src="/wp-content/themes/infolit/images/faculty/rotate.php" alt="Infolit" id="main" />';
+		echo '<img src="'.$directory.'rotate.php" alt="Infolit" id="main" />';
 		}
 		
 		?>

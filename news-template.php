@@ -8,12 +8,13 @@ include('faculty-header.php');
 
 
 // Image Rotator
+$directory = get_template_directory_uri().'/images/faculty/';
 ?>
 
 
 
 
-<img src="/wp-content/themes/infolit/images/faculty/rotate.php" alt="Infolit" id="main" />
+<img src="<?php echo($directory); ?>rotate.php" alt="Infolit" id="main" />
 
 <h2 id="top">News</h2>
 

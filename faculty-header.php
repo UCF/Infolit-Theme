@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>/print.css" type="text/css" media="print" />
 <script type="text/javascript" src="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>js/jquery.js"></script>
 <script type="text/javascript" src="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>js/infolit.js"></script>
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js'></script>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 <?php if (is_page_template('faculty-default-html-page.php')): ?>
@@ -78,7 +78,7 @@ wp_head();
 
 <!-- UCF and CDL web bars -->
 
-<script type="text/javascript" src="http://universityheader.ucf.edu/bar/js/university-header.js"></script>
+<script type="text/javascript" src="https://universityheader.ucf.edu/bar/js/university-header.js"></script>
 
 <!-- /web bars -->
 
@@ -90,13 +90,13 @@ wp_head();
 	<div id="content-head">
     	<div id="logo">
 
-        	<h1><a href="/"><span><?php bloginfo('name'); ?></span></a></h1>
+        	<h1><a href="<?php bloginfo('url')?>"><span><?php bloginfo('name'); ?></span></a></h1>
             
          </div>   
     
         <div id="menu">
             <ul id="nav">
-            <li class="first"><a href="/faculty/">About</a></li>
+            <li class="first"><a href="<?php bloginfo('url')?>/Faculty/">About</a></li>
 			<?php 
 			//Lists all pages in the navigation bar; excludes parent and student pages.
 			wp_list_pages('sort_column=menu_order&title_li=&include=25,27,29,31,34,38,1446&depth=0'); 

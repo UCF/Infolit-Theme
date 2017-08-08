@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage infolit: faculty
+ * @subpackage infolit: students
  */
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -21,7 +21,7 @@
 
 <!-- UCF and CDL web bars -->
 
-<script type="text/javascript" src="http://universityheader.ucf.edu/bar/js/university-header.js"></script>
+<script type="text/javascript" src="https://universityheader.ucf.edu/bar/js/university-header.js"></script>
 
 <!-- /web bars -->
 <?php
@@ -46,13 +46,13 @@ function curPageURL() {
 	<div id="content-head">
     	<div id="logo">
 
-        	<h1><a href="/"><span><?php bloginfo('name'); ?></span></a></h1>
+        	<h1><a href="<?php bloginfo('url')?>"><span><?php bloginfo('name'); ?></span></a></h1>
             
          </div>   
     
         <div id="menu">
             <ul id="nav">
-            <li class="first"><a href="/student/">Home</a></li>
+            <li class="first"><a href="<?php bloginfo('url')?>/Student/">Home</a></li>
 			<?php 
                     //Lists all pages in the navigation bar
                     

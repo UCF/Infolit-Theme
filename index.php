@@ -24,8 +24,8 @@
 
     
     <ul>    
-    	<li><a href="../faculty/">Faculty Site</a></li>
-    	<li><a href="../students/">Student Site</a></li>   
+    	<li><a href="<?php bloginfo('url')?>/Faculty/">Faculty Site</a></li>
+    	<li><a href="<?php bloginfo('url')?>/Students/">Student Site</a></li>   
 	</ul>    
 </div>
 <div id="splash-bottom">
