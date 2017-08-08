@@ -90,13 +90,13 @@ wp_head();
 	<div id="content-head">
     	<div id="logo">
 
-        	<h1><a href="/"><span><?php bloginfo('name'); ?></span></a></h1>
+        	<h1><a href="<?php bloginfo('url')?>"><span><?php bloginfo('name'); ?></span></a></h1>
             
          </div>   
     
         <div id="menu">
             <ul id="nav">
-            <li class="first"><a href="/faculty/">About</a></li>
+            <li class="first"><a href="<?php bloginfo('url')?>/Faculty/">About</a></li>
 			<?php 
 			//Lists all pages in the navigation bar; excludes parent and student pages.
 			wp_list_pages('sort_column=menu_order&title_li=&include=25,27,29,31,34,38,1446&depth=0'); 

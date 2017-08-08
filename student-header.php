@@ -46,13 +46,13 @@ function curPageURL() {
 	<div id="content-head">
     	<div id="logo">
 
-        	<h1><a href="/"><span><?php bloginfo('name'); ?></span></a></h1>
+        	<h1><a href="<?php bloginfo('url')?>"><span><?php bloginfo('name'); ?></span></a></h1>
             
          </div>   
     
         <div id="menu">
             <ul id="nav">
-            <li class="first"><a href="/student/">Home</a></li>
+            <li class="first"><a href="<?php bloginfo('url')?>/Student/">Home</a></li>
 			<?php 
                     //Lists all pages in the navigation bar
                     
