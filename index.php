@@ -11,7 +11,7 @@
 
 
 <!-- UCF and CDL web bars -->
-<script type="text/javascript" src="http://universityheader.ucf.edu/bar/js/university-header.js"></script>
+<script type="text/javascript" src="https://universityheader.ucf.edu/bar/js/university-header.js"></script>
 
 <!-- /web bars -->
 
