@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>/print.css" type="text/css" media="print" />
 <script type="text/javascript" src="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>js/jquery.js"></script>
 <script type="text/javascript" src="<?php echo trailingslashit( get_bloginfo('template_url') ); ?>js/infolit.js"></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js'></script>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 
@@ -37,6 +38,7 @@ function curPageURL() {
  return $pageURL;
 }
 
+wp_head();
 ?>
 
 </head>
