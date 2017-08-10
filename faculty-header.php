@@ -88,21 +88,20 @@ wp_head();
 
 <div id="site">
 	<div id="content-head">
-    	<div id="logo">
-
-        	<h1><a href="<?php bloginfo('url')?>"><span><?php bloginfo('name'); ?></span></a></h1>
-            
-         </div>   
-    
-        <div id="menu">
-            <ul id="nav">
-            <li class="first"><a href="<?php bloginfo('url')?>/Faculty/">About</a></li>
-			<?php 
-			//Lists all pages in the navigation bar; excludes parent and student pages.
-			wp_list_pages('sort_column=menu_order&title_li=&include=25,27,29,31,34,38,1446&depth=0'); 
-			?> 
-            </ul>
-        </div>           
+  	<div id="logo">
+      <h1><a href="<?php bloginfo('url')?>"><span><?php bloginfo('name'); ?></span></a></h1> 
+    </div> 
+    <div id="menu">
+      <?php /* Primary navigation */
+        wp_nav_menu( array(
+          'menu'        => 'Faculty Menu',
+          'theme_location' => 'faculty-menu',
+          'depth'       => 2,
+          'menu_id'  => 'nav',
+          'container' => false
+        ));
+      ?> 
+    </div>           
 	</div> 
 
 <div id="main-content-wrapper">

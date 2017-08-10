@@ -54,4 +54,18 @@ function infolit_comment($comment, $args, $depth) {
 		
 		
 add_filter('send_password_change_email', '__return_false');
+
+
+//Register all Wordpress menus
+//============================
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'student-menu' => __( 'Student Menu' ),
+      'faculty-menu' => __( 'Faculty Menu'),
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
+
 ?>
