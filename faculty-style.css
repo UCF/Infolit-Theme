@@ -226,6 +226,7 @@ html>body #site
 #site #main-content-wrapper>#main-content
 {
 	height: 100%;
+	overflow: auto;
 }
 
 #site #main-content-wrapper #main-content img#main
