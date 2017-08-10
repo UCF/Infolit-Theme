@@ -91,7 +91,7 @@ display:block;
 
 
 .infolit_captivate {
-	background: url('/wp-content/themes/infolit/images/infolit_play_captivate.png') no-repeat 100% 0%;
+	background: url('images/infolit_play_captivate.png') no-repeat 100% 0%;
 	display: block;
 	width: 352px;
 	height: 0px;
@@ -226,6 +226,7 @@ html>body #site
 #site #main-content-wrapper>#main-content
 {
 	height: 100%;
+	overflow: auto;
 }
 
 #site #main-content-wrapper #main-content img#main

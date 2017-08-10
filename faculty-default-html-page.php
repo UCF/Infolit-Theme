@@ -35,7 +35,7 @@ include('faculty-header.php');
 
 		<div style="display:none;">	
 			<div id="lightbox_content">
-			<?php $key="lightbox_content"; echo get_post_meta($post->ID, $key, true); ?>
+			<?php $key="lightbox_content"; echo(get_post_meta($post->ID, $key, true)); ?>
 			</div>
 		</div>
 						
