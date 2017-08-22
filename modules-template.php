@@ -13,7 +13,7 @@ global $withcomments;
 $withcomments=1;
 
 function links_to_posts($category){
-	$query_string = "category_name=".$category."&orderby=meta_value_num&meta_key=list_order&order=asc&posts_per_page=-1";
+	$query_string = "category_name=".$category."&orderby=title&meta_key=list_order&order=asc&posts_per_page=-1";
 	query_posts($query_string);
 		
 	echo "<ol class='directory'>";
