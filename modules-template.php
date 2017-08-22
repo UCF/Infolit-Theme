@@ -48,7 +48,7 @@ function links_to_posts($category){
 }
 
 function print_posts($category, $parent){
-	$query_string = "category_name=".$category."&orderby=meta_value_num&meta_key=list_order&order=asc&posts_per_page=-1";
+	$query_string = "category_name=".$category."&orderby=title&meta_key=list_order&order=asc&posts_per_page=-1";
 	query_posts($query_string);
 	
     if ( have_posts() ) { 
