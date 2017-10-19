@@ -15,7 +15,7 @@
 
 <!-- /web bars -->
 
-
+<?php wp_head(); ?>
 </head>
 <body>
 
@@ -31,6 +31,7 @@
 <div id="splash-bottom">
 	<p>&copy; <?php echo date("Y"); ?> - <a href="http://ucf.edu">University of Central Florida</a></p>
 </div>
+<?php wp_footer(); ?>
 </body>
 </html>
 
