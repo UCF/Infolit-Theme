@@ -40,10 +40,10 @@
       <div class="modal-header">
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="no-thanks">Close</span><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Quick Survey</h4>
+        <h4 class="modal-title">Help us improve our website!</h4>
       </div>
       <div class="modal-body">
-        <p>Please complete this brief survey. Scroll down and click Submit when complete.</p>
+        <p>Please complete this quick, 2 question survey about your visit. Click "Submit" when complete. If you don't want to participate, close this window to proceed to the site.</p>
         <iframe src="https://ucf.qualtrics.com/jfe/form/SV_becncOPNj8MQ7wF" title="iframe example 1" width="100%" height="90%" frameborder="0"  marginheight="0" marginwidth="0">
           <p>Your browser does not support iframes.</p>
         </iframe>
