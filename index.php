@@ -68,10 +68,10 @@
 <script src="https://library.ucf.edu/wp-content/themes/UCFLibrarySite-Theme/js/bootstrap.min.js" type="text/javascript"></script>
 <script type="text/javascript">
   $(document).ready( function() {
-    // if (document.cookie.replace(/(?:(?:^|.*;\s*)modal_used\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+     if (document.cookie.replace(/(?:(?:^|.*;\s*)modal_used\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
       $('#myModal').modal('show');
-      // document.cookie = "modal_used=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
-    // }
+      document.cookie = "modal_used=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+     }
   });
 </script>
 
